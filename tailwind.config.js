@@ -1,0 +1,30 @@
+const colors = require('tailwindcss/colors')
+
+module.exports = {
+  purge: [],
+  darkMode: false, // or 'media' or 'class'
+  theme: {
+    extend: {
+      colors: {
+      fondo: '#FCFCFC',
+      darkblue: '#222155'
+      },
+
+      fontFamily: {
+        body: ['Poppins']
+      },
+      spacing: {
+        '72': '18rem',
+        '84': '21rem',
+        '96': '24rem',
+        '200': '50rem',
+        '100': '40rem',
+      }
+
+    },
+  },
+  variants: {
+    extend: {},
+  },
+  plugins: [],
+}
