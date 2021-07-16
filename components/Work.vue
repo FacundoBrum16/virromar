@@ -5,7 +5,7 @@
             <h2 class="font-bold text-2xl mb-3">{{ title }}</h2>
             <p>{{description}}</p>
             <div class="absolute bottom-0 left-0">
-                <p class="uppercase w-min rounded-xl px-2 text-sm border-blue-800 font-semibold text-blue-800 bg-blue-50 border-2">Cuarzo</p>
+                <p class="uppercase w-min rounded-xl px-2 text-sm border-blue-800 font-semibold text-blue-800 bg-blue-50 border-2">{{ tag }}</p>
             </div>
         </div>
         
@@ -30,6 +30,7 @@ export default {
   props: {
       title: String,
       description : String,
+      tag: String,
   }
 }
 

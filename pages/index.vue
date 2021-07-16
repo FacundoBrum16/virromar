@@ -1,7 +1,8 @@
 <template> 
 <div>
   <div v-for="(work,index) in works" :key="index">
-    <Tutorial :title="work.title" :description="work.description"/>
+    <Work :title="work.title" :description="work.description" :tag="work.tag" :photo="work.photo"/>
+    {{ Works }}
   </div>
 </div>
 </template>
