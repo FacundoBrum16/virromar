@@ -5,6 +5,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      screens: {
+        'mypoint': '1900px',
+      },
       colors: {
       fondo: '#FCFCFC',
       darkblue: '#222155',

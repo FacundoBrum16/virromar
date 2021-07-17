@@ -6,8 +6,6 @@
       <img class="h-14 mt-3 mr-5" src="../static/assets/virromarLogo.png" alt="Virromar logo"/>
     </div>      
   </div>
-      
-
   <!-- NAVBAR ESCRITORIO  -->
   <Navegation v-if="!mobileView"/>
   <PageContent/>

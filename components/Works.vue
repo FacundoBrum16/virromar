@@ -4,8 +4,8 @@
     <div class="pt-12 text-center pb-12 bg-blue-50 shadow-inner">
         <h1 class="text-4xl font-bold">Trabajos</h1>
         <h2 class="font-bold mt-3 text-blue-800 uppercase">Revisa nuestros ultimos proyectos</h2>
-        <div class="w-10/12 mt-12 h-min mx-auto grid grid-cols-3">
-            <div v-for="(work,index) in works" :key="index">
+        <div class="w-10/12 mt-12 h-min mx-auto grid grid-cols-1 xl:grid-cols-2 mypoint:grid-cols-3">
+            <div class="mx-auto" v-for="(work,index) in works" :key="index">
                 <Work class="mb-5" :title="work.title" :description="work.description" :tag="work.tag" :photo="work.photo"/>
             </div>
         </div>
