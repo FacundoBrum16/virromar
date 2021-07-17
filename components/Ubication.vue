@@ -78,7 +78,7 @@
                     <svg width="21" height="20" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0)">
                     <path d="M20.655 13.928a12.25 12.25 0 01-3.841-.614 1.08 1.08 0 00-1.092.264l-2.367 2.372a16.204 16.204 0 01-7.09-7.085L8.63 6.487a1.08 1.08 0 00.264-1.092 12.249 12.249 0 01-.613-3.841c0-.597-.48-1.076-1.076-1.076H3.44c-.592 0-1.076.479-1.076 1.076 0 10.103 8.188 18.291 18.291 18.291.597 0 1.076-.479 1.076-1.076v-3.765c0-.598-.479-1.076-1.076-1.076z" fill="#FFFFFF"/></g><defs><clipPath id="clip0"><path fill="#fff" transform="translate(.97 .478)" d="M0 0h19.367v19.367H0z"/></clipPath></defs>
                     </svg>
-                    <p class="font-semibold ml-3">Consulta</p>
+                    <p class="font-semibold ml-3"><a href="tel:094840062">Consulta</a></p>
                 </div>
             </button>
         </div> 
