@@ -3,7 +3,7 @@
 
         <div class="pb-5 relative">
             <h2 class="font-bold text-center md:text-left text-lg w-full md:text-xl mb-3 md:w-72">{{ title }}</h2>
-            <p class="bg-yellow-300 w-full text-center md:text-left md:w-64 mb-10 md:-mb-10">{{description}}</p>
+            <p class="w-full text-center md:text-left md:w-64 mb-10 md:-mb-10">{{description}}</p>
             <div class="md:absolute md:bottom-0 md:left-0">
                 <p class="uppercase mx-auto w-min md:mx-0 rounded-xl px-2 text-sm border-blue-800 font-semibold text-blue-800 bg-blue-50 border-2">{{ tag }}</p>
             </div>
