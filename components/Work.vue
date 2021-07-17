@@ -9,28 +9,21 @@
             </div>
         </div>
         
-        <div class="bg-red-400 w-60 h-60">
-           
+        <div class="bg-red-400 flex w-44 h-44">
+           <img :src="photo" alt="">
         </div>
     </div>
 </template>
 
 
 <script>
-
-
-
 export default {
-  
-  data(){
-     return {
-         title: "sdfdf"
-     }
-  },
   props: {
       title: String,
       description : String,
       tag: String,
+      photo: String,
+
   }
 }
 
