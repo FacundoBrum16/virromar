@@ -7,7 +7,8 @@ module.exports = {
     extend: {
       colors: {
       fondo: '#FCFCFC',
-      darkblue: '#222155'
+      darkblue: '#222155',
+      hoverblue: '#4D4C76',
       },
 
       fontFamily: {

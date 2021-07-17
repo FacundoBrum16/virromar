@@ -16,9 +16,9 @@ collections:
     editor:
       preview: false
     fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Description", name: "description", widget: "string" }
-      - { label: "Tag", name: "tag", widget: "string" }
+      - { label: "Titulo", name: "title", widget: "string" }
+      - { label: "Descripción", name: "description", widget: "string" }
+      - { label: "Categoria", name: "tag", widget: "string" }
       - {
           label: "Foto",
           name: "photo",

@@ -5,9 +5,10 @@
                 <div class="font-body mb-8">
                     <p class="mt-1 font-semibold block text-center text-gray-700 uppercase">Enlaces de interés</p>
                     <div>
-                        <button class="mt-1 block mx-auto font-gray-800 text-xs font-normal">Inicio</button>
-                        <button class="mt-1 block mx-auto font-gray-800 text-xs font-normal">Artículos</button>
-                        <button class="mt-1 block mx-auto font-gray-800 text-xs font-normal">Ubicaciones & Horarios</button>
+                        <button class="mt-1 block mx-auto text-gray-800 text-md font-normal">Inicio</button>
+                        <button class="mt-1 block mx-auto text-gray-800 text-md font-normal">Artículos</button>
+                        <button class="mt-1 block mx-auto text-gray-800 text-md font-normal">Ubicaciones & Horarios</button>
+                        <button class="mt-1 block mx-auto text-blue-500 font-semibold underline text-smd"><a href="/admin">Iniciar sesión</a></button>
                     </div>
                 </div>
 
@@ -33,12 +34,3 @@
         </div>
     </div>
 </template>
-
-<script>
-export default {
-  name: 'Footer',
-  props: {
-    msg: String
-  }
-}
-</script>
