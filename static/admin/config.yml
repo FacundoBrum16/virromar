@@ -17,7 +17,12 @@ collections:
       preview: false
     fields:
       - { label: "Titulo", name: "title", widget: "string" }
-      - { label: "Descripción", name: "description", widget: "string" }
+      - {
+          label: "Descripción",
+          name: "description",
+          widget: "string",
+          pattern: ["^.{1,99}$", "Debe tener menos de 100 caracteres"],
+        }
       - { label: "Categoria", name: "tag", widget: "string" }
       - {
           label: "Foto",
