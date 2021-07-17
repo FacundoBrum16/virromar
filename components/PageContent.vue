@@ -5,10 +5,10 @@
     <Presentation/>
 
    <!-- SECCION DE TRABAJOS  -->
-    <Works/>
+    <Works id="trabajos"/>
 
    <!-- SECCION DE UBICACION  -->
-    <Ubication/>
+    <Ubication id="ubicacion"/>
     
   </div>
 </template>
