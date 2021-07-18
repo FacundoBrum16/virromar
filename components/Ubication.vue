@@ -70,7 +70,7 @@
             </div>
             <div class="p-8 flex cursor-pointer justify-center">
                 <a class="hover:shadow-2xl shadow-md" href="https://www.google.com/maps/place/34%C2%B050'01.9%22S+56%C2%B000'18.5%22W/@-34.8338514,-56.0073362,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d-34.8338514!4d-56.0051475?hl=es" target='_blank'>
-                    <img class="h-full w-full" src="../static/assets/mapaVirromar.jpg" alt="Mapa de Virromar"/>
+                    <img class="h-full w-full object-cover" src="../static/assets/mapaVirromar.jpg" alt="Mapa de Virromar"/>
                 </a>
             </div>
         </div>

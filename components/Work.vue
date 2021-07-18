@@ -12,6 +12,10 @@
         <div class="flex mx-auto w-full h-48 md:w-44 md:h-44">
            <img class="shadow-md" :src="photo" alt="Imagen de un proyecto de Virromar">
         </div>
+
+
+        
+
     </div>
 </template>
 
