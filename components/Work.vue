@@ -24,7 +24,7 @@
                 <span class="text-lg md:text-2xl font-semibold">{{title}}</span>
                 
                 
-                <div class="bg-red-200 mt-2 shadow-md">
+                <div class="mt-2 shadow-md">
                     <img class="shadow-xl object-fit mx-auto" :src="photo" alt="Imagen de un proyecto de Virromar">
                 </div>
             </div>
