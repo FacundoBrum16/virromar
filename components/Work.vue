@@ -9,8 +9,24 @@
             </div>
         </div>
         
-        <div class="flex mx-auto w-full h-48 md:w-44 md:h-44">
-           <img class="shadow-md" :src="photo" alt="Imagen de un proyecto de Virromar">
+        <div @click="showModal = false" class="bg-black h-max bg-opacity-50 top-0 right-0 left-0 bottom-0 z-30 fixed" v-if="showModal">
+        </div>
+            <div class="bg-white p-5 text-center h-max w-max  rounded-xl top-2/4 left-2/4 z-50 fixed" style="transform: translate(-50%, -50%)" v-if="showModal">
+                <div class="flex justify-end">
+                    <svg class="cursor-pointer" @click="showModal = false" width="20" height="20" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M29.2091 34.7445L18.615 24.1501L8.02091 34.7445C6.5523 36.2129 4.17143 36.2129 2.70282 34.7445C1.23448 33.2759 1.23448 30.895 2.70282 29.4264L13.2972 18.8323L2.70282 8.23819C1.23448 6.76959 1.23448 4.38872 2.70282 2.92011C4.17143 1.45176 6.5523 1.45176 8.02091 2.92011L18.615 13.5145L29.2091 2.92011C30.6777 1.45176 33.0586 1.45176 34.5272 2.92011C35.9956 4.38872 35.9956 6.76959 34.5272 8.23819L23.9328 18.8323L34.5272 29.4264C35.9956 30.895 35.9956 33.2759 34.5272 34.7445C33.0586 36.2129 30.6777 36.2129 29.2091 34.7445Z" fill="#E76E54"/>
+                    </svg>
+                </div>      
+                <span class="text-xl md:text-4xl font-semibold">{{title}}</span>
+                <div class="bg-red-200 mt-5 w-max shadow-md">
+                    <img class=" h-full sm:w-100 w-96 object-fit" :src="photo" alt="Imagen de un proyecto de Virromar">
+                </div>
+            </div>
+        
+
+        
+        <div class="flex mx-auto h-max w-full cursor-pointer h-48 md:w-44 md:h-44 shadow-md hover:shadow-xl">
+            <img @click="showModal = true" class="h-full w-full object-cover" :src="photo" alt="Imagen de un proyecto de Virromar">
         </div>
 
 
@@ -22,13 +38,26 @@
 
 <script>
 export default {
-  props: {
-      title: String,
-      description : String,
-      tag: String,
-      photo: String,
+    data(){
+        return{
+            showModal: false,
 
-  }
+        }
+    },
+    
+    
+    props: {
+        title: String,
+        description : String,
+        tag: String,
+        photo: String,
+    },
+
+
+
+
 }
 
 </script>
+
+
